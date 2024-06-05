@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #5da4dc;
+  }
+  
+  .jumbotron-a {
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .head-text {
+    color: #333;
+  }
+  
+  .head-text h1, .head-text h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .head-text p {
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .head-text ol, .head-text ul {
+    margin-bottom: 20px;
+  }
+  
+  .head-text li {
+    margin-bottom: 10px;
+  }
+  
+  .ukrainian-instructions {
+    margin-bottom: 40px;
+  }
+  

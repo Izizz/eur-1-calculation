@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15.2-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: Calculation
+    volumes: 
+      - /var/lib/postgresql/data
+    logging:
+      driver: none
+    
+volumes:
+  db:
+  

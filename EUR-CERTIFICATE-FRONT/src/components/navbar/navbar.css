@@ -1,0 +1,44 @@
+
+.navbar-logo{
+    height: 60px;  
+    width: 60px;
+  }
+  .navbar-body{
+    width: 100%;
+    max-width: 1200px; 
+  }
+  .navbar-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004163;
+    height: 80px;
+  }
+  .navbar-link{
+    text-decoration: none;
+    color: white;
+  }
+  .navbar-link:hover{
+  
+    color: white;
+  
+  }
+  
+  
+  .navbar-link-container{
+    gap : 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .current-user {
+    margin-left: auto; /* Added property */
+  }
+
+  .navbar-link-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

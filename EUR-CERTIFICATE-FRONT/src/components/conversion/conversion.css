@@ -1,0 +1,7 @@
+ 
+.conversion-container{
+    background-image: url(/src/img/01.jpg);
+    width: 100%;
+    height: 1000px;
+    background-size: 100% 1000px;
+  }
